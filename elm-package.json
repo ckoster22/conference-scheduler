@@ -1,13 +1,17 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/user/project.git",
+    "summary": "",
+    "repository": "https://github.com/ckoster22/conference-scheduler.git",
     "license": "BSD3",
     "source-directories": [
-        "."
+        ".",
+        "./src"
     ],
     "exposed-modules": [],
     "dependencies": {
+        "ckoster22/elm-genetic": "1.0.1 <= v < 2.0.0",
+        "elm-community/list-extra": "6.1.0 <= v < 7.0.0",
+        "elm-community/random-extra": "2.0.0 <= v < 3.0.0",
         "elm-lang/core": "5.1.1 <= v < 6.0.0",
         "elm-lang/html": "2.0.0 <= v < 3.0.0"
     },
